@@ -1,13 +1,13 @@
 # PACRR Neural Net Retrieval
 
 ## Introduction
----
+
 This part contains our simple classifier that retrieves as many results as it can for re-ranking by the PACRR neural net.
 
 This repository contains the IR folder which is the package that contains our "_src"_ folder. All of the code is found there.
 
 ## Main Class
----
+
 Index - gets a String path to the data to index and IndexWriter. The data is read from “path” and formed into java objects via Gson’s fromJson function. The data is then indexed in the index by using Lucene’s IndexWriter and by iterating over each object and storing relevant fields. 
 This function is to be called at the start of every run of the system to set up an index containing all given data.
 
