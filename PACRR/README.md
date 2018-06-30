@@ -27,3 +27,8 @@ The files and their uses are listed here:
 - _retrieval.ipynb_ - Jupyter Notebook to use trained network for re-ranking.
 
 Each of these files contains its own comments on what each code-section in that file does.
+
+## Required Modules
+
+The following modules are required to run our PACRR code:
+matplotlib, numpy, tensorflow, (optional) tensorflow-gpu, gensim, sklearn, nltk, nltk.tokenize and nltk.corpus (downloaded using nltk and python console), datetime, timeit, contextlib
